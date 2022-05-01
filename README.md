@@ -49,6 +49,7 @@ The biggest challenge
 Even thought I struggled a lot for do this project...
 
 ## References:
+[Figma/logo ] (https://www.figma.com/file/QnHTwAnzdKmKM07rrfLpt6/my-logo?node-id=203%3A11)
 [Markdown guide] (https://www.markdownguide.org/cheat-sheet)
 [free icons] (https://icons8.com/icons)
 [material.io] (https://material.io/components/buttons-floating-action-button#usage)
