@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Online Shopping App</string>
+    <string name="main_act_login">Login</string>
+</resources>
