@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659622521898",
+    "project_id": "online-shopping-app-65899",
+    "storage_bucket": "online-shopping-app-65899.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659622521898:android:635f83f4e731e4b193a753",
+        "android_client_info": {
+          "package_name": "ie.dorset.student_22711.onlineshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659622521898-nv7coss1aorfp54dk1bcutqru3ibcoaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx1lrvNeZJUHXfE1p_MAXf18F4KR8-JEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659622521898-nv7coss1aorfp54dk1bcutqru3ibcoaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

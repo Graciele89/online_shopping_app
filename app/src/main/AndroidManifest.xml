@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineShoppingApp">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -19,7 +20,14 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ForgotPwdActivity" />
+
+
+
 
     </application>
 

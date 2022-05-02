@@ -4,10 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
-    tools:context=".LoginActivity"
-    android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="25dp"
+        android:text="@string/welcome_sign_up"
+        android:textSize="40sp" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email_layout"
@@ -15,17 +23,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="250dp"
-        app:boxStrokeColor="@color/purple_200"
-        app:hintTextColor="@color/purple_200"
+        android:layout_marginTop="100dp"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/repeat_email"
+            android:id="@+id/emailEt"
             style="@style/LoginTextInputInnerStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,7 +42,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/pwd_layout"
-        style="@style/LoginTextInputInnerStyle"
+        style="@style/LoginTextInputOuterStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
@@ -53,16 +60,41 @@
             style="@style/LoginTextInputInnerStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/type_your_pwd"
+            android:hint="@string/type_password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirm_password"
+        style="@style/LoginTextInputOuterStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="24dp"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pwd_layout"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmPassEt"
+            style="@style/LoginTextInputInnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/retype_password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:background="@color/white"
+        android:layout_marginHorizontal="15dp"
+        android:background="@color/teal_700"
         android:text="@string/sign_up"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -70,9 +102,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
+
     <TextView
         android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -84,3 +119,13 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+

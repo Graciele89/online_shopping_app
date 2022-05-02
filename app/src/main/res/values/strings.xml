@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Online Shopping App</string>
+    <string name="welcome_mainPage">WELCOME</string>
+
     <string name="main_act_login">Login</string>
+    <string name="sign_up_act_Main">sign up</string>
+    <string name="exit_act_main">exit</string>
+
+
+    <string name="copyRight_act_main">© Copyright Graciele Maria Ludwig 2022</string>
+    <string name="android_studio_main">Built with Android Studio</string>
+
+
+    <string name="welcome_sign_up">Welcome, Sign Up to continue</string>
+    <string name="type_your_pwd">"Type Your Password: "</string>
+    <string name="already_registered">Already Registered , Sign In !</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet">Not Registered Yet , Sign Up !</string>
+    <string name="type_email">Type your Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="type_password">Type Your Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="retype_password">Retype Your Password</string>
+
 </resources>
