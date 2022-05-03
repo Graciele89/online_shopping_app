@@ -35,7 +35,7 @@
         android:layout_gravity="center"
         android:padding="10dp">
         <Button
-            android:id="@+id/login_button"
+            android:id="@+id/loginButton"
             android:text="@string/main_act_login"
             android:layout_margin="15dp"
             android:padding="10dp"
@@ -43,14 +43,14 @@
             android:layout_height="wrap_content"/>
 
         <Button
-            android:id="@+id/signUp_button"
+            android:id="@+id/signUpButton"
             android:text="@string/sign_up_act_Main"
             android:layout_margin="15dp"
             android:padding="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <Button
-            android:id="@+id/exit_button"
+            android:id="@+id/exitButton"
             android:text="@string/exit_act_main"
             android:layout_margin="15dp"
             android:padding="10dp"

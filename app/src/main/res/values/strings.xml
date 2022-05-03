@@ -22,5 +22,8 @@
     <string name="type_password">Type Your Password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="retype_password">Retype Your Password</string>
+    <string name="login_to_categories_act">LOGIN</string>
+    <string name="welcome_categories">Chose a category and scroll through our high quality products</string>
+    <string name="reset_password">Not working yet, but should ask user email to reset password</string>
 
 </resources>

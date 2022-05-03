@@ -1,34 +1,57 @@
 package ie.dorset.student_22711.onlineshoppingapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
+import ie.dorset.student_22711.onlineshoppingapp.databinding.ActivityLoginBinding
 
-class LoginActivity: AppCompatActivity(R.layout.activity_login) {
+class LoginActivity: AppCompatActivity(){
+
+    private lateinit var binding: ActivityLoginBinding
+    private lateinit var firebaseAuth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+
+        firebaseAuth = FirebaseAuth.getInstance()
+        binding.textViewBottom.setOnClickListener {
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.loginToCategories.setOnClickListener {
+            val email = binding.emailText.text.toString()
+            val pass = binding.pwdText.text.toString()
+
+            if (email.isNotEmpty() && pass.isNotEmpty()) {
+
+                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
+                    if (it.isSuccessful) { //here i have to send to categories activity not main
+                        val intent = Intent(this, MainActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+                Toast.makeText(this, "This field can NOT be empty!", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if(firebaseAuth.currentUser != null){//here i have to send to categories activity not main
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
 
-//class Education: AppCompatActivity() {
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.education)
-//
-//        // to return to home page
-//        val returnButtonEducation = findViewById<Button>(R.id.returnButtonEducation)
-//        returnButtonEducation.setOnClickListener{
-//            val intent = Intent(this, MainActivity::class.java)
-//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-//            startActivity(intent)
-//        }
-//        //to go to next activity Skills
-//        val nextButtonEducation = findViewById<Button>(R.id.nextButtonEducation)
-//        nextButtonEducation.setOnClickListener{
-//            val intent = Intent(this, Skills::class.java)
-//            startActivity(intent)
-//        }
-//    }
-//}
