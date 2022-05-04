@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ie.dorset.student_22711.onlineshoppingapp">
 
     <application
@@ -26,8 +27,8 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ForgotPwdActivity" />
         <activity android:name=".CategoriesActivity" />
-
-
+        <activity android:name=".ItemAdapter" />
+        <activity android:name=".DataModel" />
 
     </application>
 

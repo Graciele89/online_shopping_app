@@ -66,14 +66,13 @@
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
-
     <Button
         android:id="@+id/loginToCategories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:text="@string/login_to_categories_act"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/blue"
         android:layout_marginBottom="25dp">
     </Button>
 

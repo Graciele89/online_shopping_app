@@ -94,7 +94,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/green"
         android:text="@string/sign_up"
         android:textColor="@color/black"
         android:textStyle="bold"

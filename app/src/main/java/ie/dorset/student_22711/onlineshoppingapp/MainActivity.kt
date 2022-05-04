@@ -21,9 +21,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        forgotPassword.setOnClickListener{
+            val intent = Intent(this, ForgotPwdActivity::class.java)
+            startActivity(intent)
+        }
+
         exitButton.setOnClickListener{
             finishAffinity()
         }
+
 
 
         // Toast.makeText(this,"Button Clicked", Toast.LENGTH_LONG).show()
