@@ -6,9 +6,9 @@
 
 ## Requirements Checklist:
 1 - Authentication:
-- [ ] Allow User to Signup;
-- [ ] Log In using username and password;
-- [ ] Store userID once logged in to keep the user logged in (even after restarting the app);
+- [x] Allow User to Signup;
+- [x] Log In using username and password;
+- [x] Store userID once logged in to keep the user logged in (even after restarting the app);
 
 2 - Product Listing:
 - [ ] List Product Categories;
@@ -37,16 +37,14 @@
 - [ ] Add a small "About this app" button in the profile page, that shows a page with your copyright details and credits.;
 
 7 - Bonus
-- [ ] 
+- [x] Creation of logo;
 
 ## Introduction
-This app
+This app is a final project for the first semester in Mobile application using Android Studio and Kotlin language. We were required to create an online shopping app, using consuming JSON API hosted in https://fakestoreapi.com. 
 
 ## Difficulties | challenges
-The biggest challenge
+The biggest challenge was work in a such heavy Integrated Development Environment (IDE), as my laptop only have 8GB,Android Studio and  every change I did I had to keep waiting ages till it applies, also connec everything throug Firebase was long work, only the first part took me more than five full days to make it work, and I watched so many different tutorials to try understand and while following steps, I got so many errors, and other problem is that they changing and updating the system every day, is hard to find anything up to date enough that works.
 
-## Last considerations:
-Even thought I struggled a lot for do this project...
 
 ## References:
 [Figma/logo ] (https://www.figma.com/file/QnHTwAnzdKmKM07rrfLpt6/my-logo?node-id=203%3A11)
