@@ -31,8 +31,8 @@ class LoginActivity: AppCompatActivity(){
             if (email.isNotEmpty() && pass.isNotEmpty()) {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
-                    if (it.isSuccessful) { //here i have to send to categories activity not main
-                        val intent = Intent(this, MainActivity::class.java)
+                    if (it.isSuccessful) {
+                        val intent = Intent(this, CategoriesActivity::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
@@ -47,10 +47,10 @@ class LoginActivity: AppCompatActivity(){
     override fun onStart() {
         super.onStart()
 
-        if(firebaseAuth.currentUser != null){//here i have to send to categories activity not main
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
+//        if(firebaseAuth.currentUser != null){
+//            val intent = Intent(this, CategoriesActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
 

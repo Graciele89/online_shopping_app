@@ -11,19 +11,25 @@
     <string name="android_studio_main">Built with Android Studio</string>
 
 
-    <string name="welcome_sign_up">Welcome, Sign Up to continue</string>
+    <string name="welcome_sign_up">Welcome, \n Sign Up to continue</string>
+    <string name="type_email">Type your Email</string>
     <string name="type_your_pwd">"Type Your Password: "</string>
+    <string name="retype_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
     <string name="already_registered">Already Registered , Sign In !</string>
 
+
     <string name="sign_in">Sign In</string>
-    <string name="not_registered_yet">Not Registered Yet , Sign Up !</string>
-    <string name="type_email">Type your Email</string>
-    <string name="sign_up">Sign Up</string>
     <string name="type_password">Type Your Password</string>
+    <string name="not_registered_yet">Not Registered Yet , Sign Up !</string>
     <string name="forgot_password">Forgot Password</string>
-    <string name="retype_password">Retype Your Password</string>
-    <string name="login_to_categories_act">LOGIN</string>
-    <string name="welcome_categories">Chose a category and scroll through our high quality products</string>
+
+
     <string name="reset_password">Not working yet, but should ask user email to reset password</string>
+    <string name="lets_reset_your_pwd">Lets reset your Password:</string>
+    <string name="reset_password_now">RESET PASSWORD NOW</string>
+
+    <string name="login_to_categories_act">LOGIN</string>
+    <string name="welcome_categories">Chose a category \n and scroll through our high quality products</string>
 
 </resources>

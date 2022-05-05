@@ -27,8 +27,7 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ForgotPwdActivity" />
         <activity android:name=".CategoriesActivity" />
-        <activity android:name=".ItemAdapter" />
-        <activity android:name=".DataModel" />
+
 
     </application>
 

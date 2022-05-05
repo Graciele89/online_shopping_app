@@ -21,10 +21,11 @@ class SignUpActivity: AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-        binding.textViewBottom.setOnClickListener{
+        binding.textViewBottomSignIn.setOnClickListener{
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+
         binding.buttonSignUp.setOnClickListener{
             val email = binding.emailText.text.toString()
             val pwd = binding.pwdText.text.toString()

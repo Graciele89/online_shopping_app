@@ -5,11 +5,33 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/resetPwd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:textSize="30sp"
+        android:text="@string/lets_reset_your_pwd">
+    </TextView>
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="@string/reset_password">
-
     </TextView>
+
+    <Button
+        android:id="@+id/resetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+       android:layout_marginBottom="20dp"
+        android:text="@string/reset_password_now">
+
+    </Button>
+
+
 
 </LinearLayout>
