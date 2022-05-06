@@ -24,7 +24,7 @@
 
 
       <ImageView
-          android:id="@+id/movieImage"
+          android:id="@+id/Image"
           android:layout_width="200dp"
           android:layout_height="165dp"
           android:adjustViewBounds="true"

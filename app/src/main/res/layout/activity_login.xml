@@ -71,8 +71,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
+        android:padding="12dp"
         android:text="@string/login_to_categories_act"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/lightblue"
         android:layout_marginBottom="25dp">
     </Button>
 

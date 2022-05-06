@@ -19,5 +19,4 @@ class CategoryActivity: AppCompatActivity(R.layout.activity_products_categories)
         category_recycler_view.adapter = CategoryAdapter(this)
 
     }
-
 }

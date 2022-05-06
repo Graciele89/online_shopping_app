@@ -40,7 +40,7 @@
         <Button
             android:id="@+id/loginButton"
             android:text="@string/main_act_login"
-            android:layout_margin="10dp"
+            android:layout_margin="12dp"
             android:backgroundTint="@color/lightblue"
             android:padding="12dp"
             android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
         <Button
             android:id="@+id/signUpButton"
             android:text="@string/sign_up_act_Main"
-            android:layout_margin="10dp"
+            android:layout_margin="12dp"
             android:backgroundTint="@color/lightblue"
             android:padding="12dp"
             android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         <Button
             android:id="@+id/exitButton"
             android:text="@string/exit_act_main"
-            android:layout_margin="10dp"
+            android:layout_margin="12dp"
             android:backgroundTint="@color/lightblue"
             android:padding="12dp"
             android:layout_width="wrap_content"

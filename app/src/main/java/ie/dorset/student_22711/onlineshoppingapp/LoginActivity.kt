@@ -22,6 +22,7 @@ class LoginActivity: AppCompatActivity(){
         binding.textViewBottom.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
+
         }
 
         binding.loginToCategories.setOnClickListener {

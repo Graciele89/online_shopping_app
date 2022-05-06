@@ -19,13 +19,14 @@ import androidx.recyclerview.widget.RecyclerView
        val inflater: LayoutInflater = LayoutInflater.from(parent.context)
         val view = inflater.inflate(R.layout.template_category, parent, false)
         return CategoryViewHolder(view)
+
   }
 
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
-//   val categoryContent = holder.itemView.findViewById<TextView>(R.id.category_content)
-//        if (position == 3){
-//            categoryContent.text = context.getString(R.string.template_category_content, position)
-//        }
+   val categoryContent = holder.itemView.findViewById<TextView>(R.id.category_content)
+        if (position == 3){
+       //     categoryContent.text = context.getString(R.string.category_content, position)
+        }
     }
 
     override fun getItemCount(): Int {
