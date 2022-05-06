@@ -47,19 +47,19 @@ The biggest challenge was work in a such heavy Integrated Development Environmen
 
 
 ## References:
-[Figma/logo ] (https://www.figma.com/file/QnHTwAnzdKmKM07rrfLpt6/my-logo?node-id=203%3A11)
-[Markdown guide] (https://www.markdownguide.org/cheat-sheet)
-[Free icons] (https://icons8.com/icons)
-[Material.io] (https://material.io/components/buttons-floating-action-button#usage)
-[Shape your image] (https://youtu.be/jihLJ0oVmGo)
+[Figma/logo](https://www.figma.com/file/QnHTwAnzdKmKM07rrfLpt6/my-logo?node-id=203%3A11)
+[Markdown guide](https://www.markdownguide.org/cheat-sheet)
+[Free icons](https://icons8.com/icons)
+[Material.io](https://material.io/components/buttons-floating-action-button#usage)
+[Shape your image](https://youtu.be/jihLJ0oVmGo)
 [Fakestoreapi](https://fakestoreapi.com/docs)
-[Free images] (https://www.freeimages.com/download/clothes-1-1426841)
-[Post man] (https://www.postman.com)
+[Free images](https://www.freeimages.com/download/clothes-1-1426841)
+[Post man](https://www.postman.com)
 [Guides](https://guides.codepath.com/android/Organizing-your-Source-Files)
-[Firebase] (https://console.firebase.google.com/u/0/project/online-shopping-app-65899/authentication/users)
-[Developer Android] (https://developer.android.com/codelabs/kotlin-android-training-recyclerview-fundamentals?index=..%2F..android-kotlin-fundamentals#3)
-[YouTube] (https://www.youtube.com/watch?v=oDfl-xLXiac)
-[YouTube] (https://www.youtube.com/watch?v=idbxxkF1l6k)
+[Firebase](https://console.firebase.google.com/u/0/project/online-shopping-app-65899/authentication/users)
+[Developer Android](https://developer.android.com/codelabs/kotlin-android-training-recyclerview-fundamentals?index=..%2F..android-kotlin-fundamentals#3)
+[YouTube](https://www.youtube.com/watch?v=oDfl-xLXiac)
+[YouTube](https://www.youtube.com/watch?v=idbxxkF1l6k)
 
 
 ## Copyright Disclaimer:
