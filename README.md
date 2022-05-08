@@ -70,5 +70,4 @@ Kindly,
 Graciele Ludwig
 
 ## App-debug.apk file
-link to my app:
-link to my youtube video:  
+link to my youtube video:  https://youtu.be/XlqHLypIt38
