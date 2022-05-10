@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //in build gradle is necessary to add android-kotlin-extensions for use kotlin synthetics
-        loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
+//        loginButton.setOnClickListener {
+//            val intent = Intent(this, LoginActivity::class.java)
+//            startActivity(intent)
+//        }
 
         signUpButton.setOnClickListener{
         val intent = Intent(this, SignUpActivity::class.java)
